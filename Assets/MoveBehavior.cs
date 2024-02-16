@@ -33,5 +33,11 @@ public class MoveBehavior : MonoBehaviour
             Debug.Log("pressed the d key to move to the right");
             transform.position += new Vector3(1f, 0f, 0f);
         }
+        //if (OnCollisionEnter)
+        //{
+            //Debug.Log("pressed the d key to move to the right");
+            //transform.position += new Vector3(0f, 7f, 0f);
+        //}        
+        
     }
 }
