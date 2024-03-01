@@ -15,7 +15,7 @@ public class LogBehavior : MonoBehaviour
     { 
         {
             Debug.Log("Log Spam");
-            transform.position += new Vector3(0.01f, 0f, 0f);
+            transform.position += new Vector3(0.02f, 0f, 0f);
         }
     }
 }

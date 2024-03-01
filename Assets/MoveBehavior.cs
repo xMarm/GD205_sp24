@@ -31,8 +31,11 @@ public class MoveBehavior : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.A))
         {
-            Debug.Log("pressed the a key to move to the left");
-            transform.position -= new Vector3(1f, 0f, 0f);
+       	 	if (transform.position.x > -22.5f)
+         	{
+           	 Debug.Log("pressed the a key to move to the right");
+          	 transform.position -= new Vector3(1f, 0f, 0f);
+                }
         }
         if (Input.GetKeyDown(KeyCode.D))
         {
